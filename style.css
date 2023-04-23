@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(79, 165, 218);
+    font: normal 15pt Arial;
+}
+header {
+    color: white;
+    text-align: center;
+}
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.526);
+}
+.botao_verificar {
+    width: 150px;
+    padding: 15px;
+    border-radius: 15px;
+    background: linear-gradient(90deg, #d3d3d3, #808080);
+    transition: all 1s ease-out;
+}
+.botao_verificar:hover {
+    transform: scale(1.1); /* Aumenta o tamanho do botão em 10% */
+}
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+} 
